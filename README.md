@@ -1,5 +1,6 @@
 # fashion-website
 CIT 384 Fashion Website Project
+https://jklmn213.github.io/fashion-website/
 
 
 ## MDN References
