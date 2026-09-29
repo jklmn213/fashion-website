@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Trends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Fashion Forward</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="trends.html">Trends</a>
+            <a href="outfits.html">Outfits</a>
+            <a href="budget.html">Budget Fashion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h2>Latest Fashion Trends</h2>
+            <p>Check out some popular styles and trends.</p>
+        </section>
+<!-- MDN elements: source provides the video file.
+     track adds captions to the video.
+     The kind and srclang attributes describe the caption track. -->
+
+<video class="fashion-video" controls>
+    <source src="videos/fashion-video.mp4" type="video/mp4">
+
+    <track 
+        kind="captions"
+        srclang="en"
+        src="videos/fashion-captions.vtt"
+        label="English captions"
+        default
+    >
+
+    Your browser does not support the video element.
+</video>
+        <section class="trend-container">
+
+            <article class="trend-card">
+                <h3>Oversized Blazers</h3>
+                <p>
+                    Oversized blazers are stylish, comfortable, and easy to
+                    wear with jeans, skirts, or dresses.
+                </p>
+            </article>
+
+            <article class="trend-card">
+                <h3>Denim Styles</h3>
+                <p>
+                    Denim jackets, wide-leg jeans, and denim skirts continue
+                    to be popular choices for everyday outfits.
+                </p>
+            </article>
+
+            <article class="trend-card">
+                <h3>Neutral Colors</h3>
+                <p>
+                    Neutral colors such as beige, white, brown, and black
+                    create simple and elegant outfits.
+                </p>
+            </article>
+
+            <article class="trend-card">
+                <h3>Statement Accessories</h3>
+                <p>
+                    Bags, sunglasses, jewelry, and scarves can make a simple
+                    outfit look more fashionable.
+                </p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fashion Forward</p>
+    </footer>
+
+</body>
+</html>

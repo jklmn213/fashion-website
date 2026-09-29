@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f8;
+    color: #333;
+}
+
+header {
+    background-color: #d96c8a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f8d7df;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #9d3f5c;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d96c8a;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #b84f6d;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    color: #9d3f5c;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #9d3f5c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.page-title {
+    text-align: center;
+    padding: 50px 20px 25px;
+}
+
+.page-title h2 {
+    color: #9d3f5c;
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.page-title p {
+    font-size: 18px;
+}
+
+.trend-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 25px 10%;
+    margin-bottom: 50px;
+}
+
+.trend-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.trend-card h3 {
+    color: #d96c8a;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.trend-card p {
+    line-height: 1.6;
+}
+.hero-image {
+    display: block;
+    width: 320px;
+    height: 360px;
+    object-fit: cover;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.outfit-image {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: block;
+}
+.budget-table {
+    width: 75%;
+    margin: 30px auto 60px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.budget-table caption {
+    color: #9d3f5c;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.budget-table th,
+.budget-table td {
+    border: 1px solid #d96c8a;
+    padding: 15px;
+    text-align: center;
+}
+
+.budget-table th {
+    background-color: #d96c8a;
+    color: white;
+}
+
+.budget-columns {
+    background-color: #fff7f8;
+}
+.fashion-video {
+    display: block;
+    width: 420px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
