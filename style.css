@@ -177,3 +177,37 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+.trend-card,
+.outfit-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trend-card:hover,
+.outfit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(157, 63, 92, 0.3);
+}
+.outfit-image,
+.trend-image {
+    transition: transform 0.3s ease;
+}
+
+.outfit-image:hover,
+.trend-image:hover {
+    transform: scale(1.04);
+}
+.hero-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #d96c8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #9d3f5c;
+}
